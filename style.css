@@ -3,7 +3,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  border: 1px solid #555;
+  border: 1px solid #000000;
 }
 
 li {
@@ -12,11 +12,7 @@ li {
 }
 
 li a {
-  display: block;
-  padding: 8px;
+  display: inline;
+  padding: 1px;
   background-color: #dddddd;
-}
-
-li:last-child {
-  border-bottom: none;
 }
